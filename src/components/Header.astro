@@ -1,7 +1,7 @@
 ---
 import { LOGO_IMAGE, SITE } from "@config";
 import Hr from "./Hr.astro";
-import LinkButton from "./LinkButton.astro";
+//import LinkButton from "./LinkButton.astro";
 
 export interface Props {
   activeNav?: "posts" | "tags" | "about" | "search";
@@ -16,15 +16,13 @@ const { activeNav } = Astro.props;
     <div class="top-nav-wrap">
       <a href="/" class="logo whitespace-nowrap">
         {
-          LOGO_IMAGE.enable ? (
+          (
             <img
-              src={`/assets/${LOGO_IMAGE.svg ? "logo.svg" : "logo.png"}`}
+              src={`/assets/logo.png`}
               alt={SITE.title}
               width={LOGO_IMAGE.width}
               height={LOGO_IMAGE.height}
             />
-          ) : (
-            SITE.title
           )
         }
       </a>
@@ -70,7 +68,7 @@ const { activeNav } = Astro.props;
               About
             </a>
           </li>
-          <li>
+          <!-- <li>
             <LinkButton
               href="/search/"
               className={`focus-outline p-3 sm:p-1 ${
@@ -88,7 +86,7 @@ const { activeNav } = Astro.props;
               </svg>
               <span class="sr-only">Search</span>
             </LinkButton>
-          </li>
+          </li> -->
           {
             SITE.lightAndDarkMode && (
               <li>
