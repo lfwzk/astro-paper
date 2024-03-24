@@ -3,7 +3,24 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-Hola soy Fernando desarrollador web desde hace ya 2 años y esta pagina esta en construccion
+## Historia
+
+Hola soy Fernando desarrollador web fullstack con experiencia de 2 años en el desarrollo en diferentes empresas y
+startups
+
+## Logros
+
+En mi aventura con el mundo del desarrollo y la tecnología logré convertirme en embajador de microsoft, ahora me encuentro en el hito más alto que es el hito gold 💛 [enlace del perfil](https://mvp.microsoft.com/en-US/studentambassadors/profile/fdfd1820-013b-45db-b076-7060bc1e51a3).
+
+<div>
+  <img src="/assets/LevelGold.png" class="sm:w-1/2 mx-auto  " alt="gold logo">
+</div>
+
+Tambien en mi camino de aprendizaje, me siento muy orgulloso de crear un Google Developers Group (GDG) en mi ciudad El Alto, esto con el motivo de que quiero promover el aprendizaje y que las personas tengan un espacio para aprender y compartir este mundo que tanto nos apasiona que es el desarrollo y la tecnología [enlace al GDG](hhttps://gdg.community.dev/gdg-el-alto/).
+
+<div>
+  <img src="/assets/GDG.jpeg" class="sm:w-1/2 mx-auto  " alt="gold logo">
+</div>
 
 <!--
 <div>
